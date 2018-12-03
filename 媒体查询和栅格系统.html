@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<style type="text/css">
+			#d1{
+				height: 300px;
+				/*background-color: black;*/
+				width: 100%;
+			}
+			@media only screen and (max-width: 768px) {
+				#d1{
+					background-color: red;
+				}
+				
+			}
+			@media only screen and (min-width: 768px) and (max-width: 992px) {
+				#d1{
+					background-color: blue;
+				}
+			}
+			@media only screen and (min-width: 992px) {
+				#d1{
+					background-color: green;
+				}
+				
+			}
+		</style>
+	</head>
+	<body>
+		<div id="d1">
+			
+		</div>
+		<p>媒体查询主要用于页面的响应式布局，根据页面宽度调整css样式，手机与电脑页面之间的调整</p>
+		<p>@media only screen and (min-width: 768px) and (max-width: 992px)主要根据屏幕宽度进行调整</p>
+	</body>
+</html>
